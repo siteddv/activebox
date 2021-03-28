@@ -4,7 +4,7 @@ body {
    font-family: "Raleway", sans-serif;
    font-size: 14px;
    color: #6c7279;
-   --web
+   -webkit-font-smoothing: antialised;
 }
 
 *,
@@ -114,6 +114,8 @@ p {
 }
 
 .intro__subtitle {
+   margin-bottom: 60px;
+
    color: #fff;
    font-weight: 400;
    font-size: 22px;

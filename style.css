@@ -4,6 +4,7 @@ body {
    font-family: "Raleway", sans-serif;
    font-size: 14px;
    color: #6c7279;
+   --web
 }
 
 *,
@@ -117,4 +118,36 @@ p {
    font-weight: 400;
    font-size: 22px;
    line-height: 1.5;
+}
+
+/*Button
+===============*/
+.button {
+   display: inline-block;
+   vertical-align: center;
+   padding: 14px 40px;
+   cursor: pointer;
+   border-radius: 2px;
+   border: 0px;
+
+   color: #fff;
+   font-family: inherit;
+   font-size: 13px;
+   font-weight: 600;
+
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: background 0.1s linear;
+}
+
+.button--red {
+   background: #e84545;
+}
+
+.button--red:hover {
+   background: #dd3434;
+}
+
+.button--red::hover {
+   background: #dd3434;
 }

@@ -153,3 +153,37 @@ p {
 .button--red::hover {
    background: #dd3434;
 }
+
+/*Features
+===============*/
+.features {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 100px 0;
+}
+
+.feature__item {
+   width: 33.33333%;
+
+   text-align: center;
+   padding: 0 40px;
+   margin: 25px 0;
+}
+
+.feature__icon {
+   margin-bottom: 20px;
+}
+
+.feature__title {
+   margin-bottom: 20px;
+   font-size: 14px;
+   color: #2d3033;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.feature__text {
+   font-size: 14px;
+   line-height: 1.5;
+   color: #6c7279;
+}

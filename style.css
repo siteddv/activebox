@@ -32,8 +32,9 @@ p {
 ================= */
 .container {
    width: 100%;
-   max-width: 1170px;
+   max-width: 1200px;
    margin: 0 auto;
+   padding: 0 -15px;
 }
 
 /* Header
@@ -243,7 +244,7 @@ p {
 .work__title {
    margin-bottom: 5px;
 
-   font-size: 11px;
+   font-size: 14px;
    font-weight: 700;
    color: #fff;
 
@@ -251,11 +252,11 @@ p {
 }
 
 .work__text {
-   font-size: 11px;
+   font-size: 14px;
    font-weight: 400;
    color: #fff;
 }
 
-/* .work_image{
-   position: ;
-} */
+.team {
+   margin: 100px 0 70px;
+}

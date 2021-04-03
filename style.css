@@ -34,7 +34,6 @@ p {
    width: 100%;
    max-width: 1200px;
    margin: 0 auto;
-   padding: 0 -15px;
 }
 
 /* Header
@@ -257,6 +256,23 @@ p {
    color: #fff;
 }
 
+/*Team
+===============*/
 .team {
    margin: 100px 0 70px;
+}
+
+.team__inner {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 -15px;
+}
+
+.team__item {
+   width: 25px;
+   padding: 0 15px;
+   margin-bottom: 30px;
+}
+
+.team__image {
 }

@@ -269,10 +269,34 @@ p {
 }
 
 .team__item {
-   width: 25px;
+   width: 25%;
    padding: 0 15px;
    margin-bottom: 30px;
 }
 
 .team__image {
+   display: block;
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 20px;
+}
+
+.team__title {
+   margin-bottom: 8px;
+   font-size: 22px;
+   color: #2d3033;
+}
+
+.team__prof {
+   margin-bottom: 15px;
+   font-size: 13px;
+   color: #e84545;
+   text-transform: uppercase;
+}
+
+.team__text {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 1.5;
+   color: #6c7279;
 }

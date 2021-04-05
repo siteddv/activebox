@@ -487,3 +487,12 @@ span.name {
 span.heart {
    color: #f00;
 }
+
+/*Media
+===============*/
+@media (max-width: 1200px) {
+   /*Intro */
+   .intro__title {
+      font-size: 40px;
+   }
+}

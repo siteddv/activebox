@@ -146,6 +146,10 @@ p {
    background: #e84545;
 }
 
+.button--large {
+   min-width: 280px;
+}
+
 .button--red:hover {
    background: #dd3434;
 }
@@ -301,8 +305,14 @@ p {
    color: #6c7279;
 }
 
+/*Team
+===============*/
 .social {
    display: flex;
+}
+
+.social--footer {
+   justify-content: center;
 }
 
 .social__item {
@@ -315,6 +325,17 @@ p {
    background-color: #fff;
    border: 1px solid #e8ecee;
    transition: background 0.1s linear;
+}
+
+.social--footer .social__item {
+   background-color: transparent;
+   border-color: #fff;
+   border-width: 2px;
+   border-radius: 2px;
+}
+
+.social--footer .social__icon {
+   fill: #fff;
 }
 
 .social__icon {
@@ -382,4 +403,87 @@ p {
    font-size: 13px;
    text-transform: uppercase;
    color: #fff;
+}
+
+/*Testimonials
+===============*/
+.download {
+   text-align: center;
+   background-color: #fff;
+   margin: 90px 0;
+}
+
+.download__title {
+   margin-bottom: 10px;
+   font-size: 28px;
+   color: #2d3033;
+   font-weight: 300;
+}
+
+.download__subtitle {
+   margin-bottom: 30px;
+   font-size: 13px;
+   color: #2d3033;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+/*Footer
+===============
+
+About
+===============*/
+
+footer {
+   display: block;
+}
+
+.about {
+   background-color: #3a3e64;
+}
+
+.about__inner {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 70px 0;
+}
+
+.about__block {
+   width: 33.3333%;
+   text-align: center;
+   padding: 0 15px;
+   align-items: center;
+}
+
+.about__title {
+   margin-bottom: 10px;
+   font-size: 14px;
+   font-weight: 700;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.about__text {
+   font-size: 14px;
+   line-height: 1.5;
+   font-style: normal;
+   color: rgba(255, 255, 255, 0.5);
+}
+
+/*Copyright
+===============*/
+.copyright {
+   padding: 20px 0;
+   background-color: #313454;
+}
+
+.copyright__text {
+   text-align: center;
+}
+
+span.name {
+   color: #fff;
+}
+span.heart {
+   color: #f00;
 }

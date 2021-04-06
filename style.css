@@ -671,6 +671,10 @@ span.heart {
       width: 100%;
    }
 
+   .feature__icon {
+      height: 40%;
+   }
+
    /*Work*/
    .work__item {
       width: 100%;

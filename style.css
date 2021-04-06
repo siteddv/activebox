@@ -4,7 +4,9 @@ body {
    font-family: "Raleway", sans-serif;
    font-size: 14px;
    color: #6c7279;
-   -webkit-font-smoothing: antialised;
+   -webkit-font-smoothing: antialiased;
+
+   background-color: #fff;
 }
 
 *,
@@ -34,6 +36,7 @@ p {
    width: 100%;
    max-width: 1200px;
    margin: 0 auto;
+   padding: 0 15px;
 }
 
 /* Header
@@ -55,6 +58,17 @@ p {
    padding: 35px 0;
 
    border-bottom: 1px solid #515369;
+}
+
+.header__inner::after {
+   display: none;
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 2%;
+   width: 96%;
+   height: 1px;
+   background: #515369;
 }
 
 /*Nav
@@ -91,7 +105,8 @@ p {
    flex-direction: column;
    justify-content: center;
    height: 750px;
-   padding-top: 100px;
+   padding: 100px 20px;
+   margin: 0;
 
    background: #31344e url("img/intro-bg.jpg") no-repeat center / cover;
 }
@@ -203,11 +218,7 @@ p {
    height: 350px;
    box-sizing: border-box;
    width: 25%;
-   padding: 0;
-   margin: 0;
    display: flex;
-   flex-direction: column;
-   justify-content: center;
    border: #fff 1px solid;
    overflow: hidden;
    position: relative;
@@ -221,6 +232,7 @@ p {
    position: absolute;
    left: 50%;
    top: 50%;
+   height: 100%;
    z-index: 1;
    transform: translate3d(-50%, -50%, 0);
 }
@@ -492,7 +504,7 @@ span.heart {
 ===============*/
 .burger {
    display: none;
-   padding: 9px 2px;
+   padding: 9px 15px;
 
    background: none;
    border: 0;
@@ -536,7 +548,20 @@ span.heart {
 
 /*Media
 ===============*/
+@media (max-width: 1330px) {
+   /*Header*/
+   .header__inner {
+      border-bottom: none;
+   }
+
+   .header__inner::after {
+      display: block;
+   }
+}
+
 @media (max-width: 991px) {
+   /*Header*/
+
    /*Nav*/
    .nav {
       display: none;
@@ -548,8 +573,41 @@ span.heart {
    }
 
    /*Intro*/
+   .intro {
+      height: auto;
+      padding-top: 130px;
+      padding-bottom: 80px;
+   }
    .intro__title {
       font-size: 40px;
+   }
+
+   /*Features*/
+   .features {
+      margin: 40px 0;
+   }
+
+   .feature__item {
+      width: 50%;
+      margin: 15px 0;
+   }
+
+   .feature__icon {
+      margin-bottom: 10px;
+   }
+
+   .feature__title {
+      margin-bottom: 10px;
+      font-size: 13px;
+   }
+
+   .feature__text {
+      font-size: 13px;
+   }
+
+   /*Work*/
+   .work__item {
+      width: 50%;
    }
 }
 
@@ -557,7 +615,6 @@ span.heart {
    /*Intro*/
    .intro {
       height: auto;
-      padding-top: 130px;
       padding-bottom: 30px;
    }
 
@@ -568,5 +625,20 @@ span.heart {
    .intro__subtitle {
       margin-bottom: 30px;
       font-size: 16px;
+   }
+
+   /*Features*/
+   .features {
+      margin: 20px 0;
+   }
+
+   .feature__item {
+      width: 100%;
+   }
+
+   /*Work*/
+   .work__item {
+      width: 100%;
+      height: 300px;
    }
 }

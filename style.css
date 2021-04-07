@@ -581,6 +581,13 @@ span.heart {
    /*Nav*/
    .nav {
       display: none;
+      width: 100%;
+      flex-direction: column;
+      background-color: #31344e;
+      text-align: right;
+      position: absolute;
+      top: 100%;
+      right: 0;
    }
 
    /*Burger*/

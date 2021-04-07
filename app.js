@@ -35,10 +35,21 @@ $(function () {
 
       let headerHeight = $("#header").height();
 
+      nav.toggleClass("show");
+
       $("html, body").animate({
          scrollTop: elementOffset - headerHeight
       }, 600);
 
+   });
+
+   // Nav toggle
+   let nav = $("nav");
+   $("#navToggle").on("click", function (event) {
+      event.preventDefault();
+
+      nav = $("nav");
+      nav.toggleClass("show");
    });
 
 

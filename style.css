@@ -590,6 +590,14 @@ span.heart {
       right: 0;
    }
 
+   .nav.show {
+      display: flex;
+   }
+
+   .nav__link {
+      padding: 9px 15px;
+   }
+
    /*Burger*/
    .burger {
       display: block;

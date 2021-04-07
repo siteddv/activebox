@@ -1,2 +1,2 @@
 # ActiveBox
-Single-page training landing 
+Training landing page from a promising web developer Dimitri Vinogradov

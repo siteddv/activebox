@@ -1,8 +1,8 @@
 # ActiveBox
 
 ## About
-Training SPA about some team that demonstrates the developer's skills at the moment.
-I'm studying frontend and practice a lot. I made this landing for practical purposes
+###### Training SPA about some team that demonstrates the developer's skills at the moment.
+###### I'm studying frontend and practice a lot. I made this landing for practical purposes
 
 ## Link
 [Link to the site](https://vino-gradom.github.io/activebox/)

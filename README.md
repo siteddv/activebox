@@ -8,8 +8,8 @@ I'm studying frontend and practice a lot. I made this landing for practical purp
 [Link to the site](https://vino-gradom.github.io/activebox/)
 
 ## Quick setup
-###### HTTPS: https://github.com/vino-gradom/new.git
-###### SSH: git@github.com:vino-gradom/new.git
+###### HTTPS: https://github.com/vino-gradom/activebox.git
+###### SSH: git@github.com:vino-gradom/activebox.git
 
 ### Create a new repository on the command line
 ```git

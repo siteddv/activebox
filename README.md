@@ -5,7 +5,7 @@
 ###### I'm studying frontend and practice a lot. I made this landing for practical purposes
 
 ## Technologies used
-###### HTML,CSS, JavaScript, JQuery
+###### HTML, CSS, JavaScript, JQuery
 
 ## Project structure
 * Header: Intro and navigation panel

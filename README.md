@@ -27,4 +27,4 @@
 git clone https://github.com/vino-gradom/activebox.git .
 ```
 
-### Have a nice experience with the repository!
+## Have a nice experience with the repository!

@@ -4,27 +4,24 @@
 ###### Training SPA about some team that demonstrates the developer's skills at the moment.
 ###### I'm studying frontend and practice a lot. I made this landing for practical purposes
 
+## Project structure
+* Header: Intro and navigation panel
+* Features
+* Works
+* Team
+* Testimonials
+* Offer to download
+* Footer with information about the company and landing author
+
 ## Link
-[Link to the site](https://vino-gradom.github.io/activebox/)
+###### [Link to the site](https://vino-gradom.github.io/activebox/)
+###### [Download ZIP](https://github.com/vino-gradom/activebox/archive/refs/heads/main.zip)
 
-## Quick setup
-###### HTTPS: https://github.com/vino-gradom/activebox.git
-###### SSH: git@github.com:vino-gradom/activebox.git
-
-### Create a new repository on the command line
+## How to clone the repository to a local machine?
+###### 1) Move to desired folder
+###### 2) Type this git code
 ```git
-echo "# new" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/vino-gradom/activebox.git
-git push -u origin master
+git clone https://github.com/vino-gradom/activebox.git .
 ```
 
-### ... or push an existing repository from the command line
-```git
-git remote add origin https://github.com/vino-gradom/activebox.git
-git branch -M master
-git push -u origin master
-```
+### Thank you for the attention! Have a nice day!

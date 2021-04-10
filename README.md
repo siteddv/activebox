@@ -4,6 +4,9 @@
 ###### Training SPA about some team that demonstrates the developer's skills at the moment.
 ###### I'm studying frontend and practice a lot. I made this landing for practical purposes
 
+## Technologies used
+###### HTML,CSS, JavaScript, JQuery
+
 ## Project structure
 * Header: Intro and navigation panel
 * Features

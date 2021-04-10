@@ -13,7 +13,7 @@
 * Offer to download
 * Footer with information about the company and landing author
 
-## Link
+## Links
 ###### [Link to the site](https://vino-gradom.github.io/activebox/)
 ###### [Download ZIP](https://github.com/vino-gradom/activebox/archive/refs/heads/main.zip)
 
@@ -24,4 +24,4 @@
 git clone https://github.com/vino-gradom/activebox.git .
 ```
 
-### Thank you for the attention! Have a nice day!
+### Have a nice experience with the repository!

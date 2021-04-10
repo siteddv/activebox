@@ -4,6 +4,12 @@
 ###### Training SPA about some team that demonstrates the developer's skills at the moment.
 ###### I'm studying frontend and practice a lot. I made this landing for practical purposes
 
+## Mission
+###### The main mission of creation this SPA is to acquire practical skills of adaptive layout of a single-page website.
+
+## Interface
+![Landing interface](https://github.com/vino-gradom/activebox/blob/main/img/interface.gif)
+
 ## Technologies used
 ###### HTML, CSS, JavaScript, JQuery
 

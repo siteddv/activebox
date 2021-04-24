@@ -1,4 +1,4 @@
-# ActiveBox
+# "ActiveBox" landing page
 
 ## About
 ###### Training SPA about some team that demonstrates the developer's skills at the moment.

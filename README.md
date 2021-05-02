@@ -1,7 +1,7 @@
 # "ActiveBox" landing page
 
 ## About
-###### Training SPA about some team that demonstrates the developer's skills at the moment.
+###### Training landing page about some team that demonstrates the developer's skills at the moment.
 ###### I'm studying frontend and practice a lot. I made this landing for practical purposes
 
 ## Mission

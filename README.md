@@ -7,6 +7,7 @@ Training landing page about some team that demonstrates the developer's skills a
 The main mission of creation this SPA is to acquire practical skills of adaptive layout of a single-page website.
 
 ## Interface
+###### This picture is in GIF format. If you want to look at the interface, please wait.
 ![Landing interface](https://github.com/vino-gradom/activebox/blob/main/img/interface.gif)
 
 ## Technologies used

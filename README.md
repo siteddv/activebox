@@ -23,8 +23,8 @@ HTML, CSS, JavaScript, JQuery
 * Footer with information about the company and landing author
 
 ## Links
-[Link to the site](https://vino-gradom.github.io/activebox/)
-[Download ZIP](https://github.com/vino-gradom/activebox/archive/refs/heads/main.zip)
+* [Link to the site](https://vino-gradom.github.io/activebox/)
+* [Download ZIP](https://github.com/vino-gradom/activebox/archive/refs/heads/main.zip)
 
 ## How to clone the repository to a local machine?
 1) Move to desired folder
